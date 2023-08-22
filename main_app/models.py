@@ -30,6 +30,6 @@ class Truck(Car):
 
 class Boat(Vehicle):
     length = models.IntegerField(default=10)
-    width = models.IntegerField(default=10)
+    width = models.IntegerField(default=5)
     hin = models.CharField(max_length=30, blank=True)
     current_hours = models.IntegerField(default=0)
